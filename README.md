@@ -1,3 +1,3 @@
 # semantic-release-example
 
-Update 1
+Update 2
