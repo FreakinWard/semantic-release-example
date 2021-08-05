@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "index.js",
   "scripts": {
