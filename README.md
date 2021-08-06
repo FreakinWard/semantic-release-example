@@ -1,10 +1,15 @@
-# semantic-release-example
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ___
+# semantic-release-example
 Inspired by [this article](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)... and [this one](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)
 
 # Getting Started
+This project demonstrates how to setup and configure semantic-release using [conventional commits](https://www.conventionalcommits.org/) and [commitizen](https://github.com/commitizen/cz-cli). 
+
+Use `npm run cz` instead of `git commit` 
 1. Install and configure semantic-release-cli
-1. Configure commit messages
+1. Commit messages
 
 ## Install
 Summary of changes required for implementation in this project
@@ -28,7 +33,7 @@ semantic-release-cli will need access to both the `github_token` [secret](https:
 ## .releaserc
 Override default tag deployment, configure [branches](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#branches) to trigger a release.
 
-# Configure commit messages
+# Commit messages
 [commitizen](https://github.com/commitizen/cz-cli) is used to create standard commit messages and is helpful using `git cli`
 
 IDE plugins are available as well
