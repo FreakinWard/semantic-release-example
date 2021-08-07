@@ -40,6 +40,8 @@ Override default tag deployment, configure [branches](https://github.com/semanti
 # Commit messages
 [commitizen](https://github.com/commitizen/cz-cli) is used to create standard commit messages and is helpful using `git cli`
 
+[commitlint](https://www.npmjs.com/package/@commitlint/cli) is used to lint the commit messages. This ensures that commit messages adhere to the standard format
+
 IDE plugins are available as well
 - [webstorm](https://plugins.jetbrains.com/plugin/9861-git-commit-template)
 - [vscode](https://marketplace.visualstudio.com/items?itemName=KnisterPeter.vscode-commitizen)
