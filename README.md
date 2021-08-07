@@ -2,9 +2,10 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ___
 # semantic-release-example
-Inspired by [this article](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)... and [this one](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)
 
 # Getting Started
+With the help of [this article](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)... and [this article](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)...
+
 This project demonstrates how to setup and configure semantic-release using [conventional commits](https://www.conventionalcommits.org/) and [commitizen](https://github.com/commitizen/cz-cli). 
 
 Use `npm run cz` instead of `git commit` 
