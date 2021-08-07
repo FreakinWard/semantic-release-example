@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
     "cz": "git-cz",
-    "commit-msg": "echo \"commit-msg\" && exit 0",
+    "commit-msg": "npx --no-install commitlint --edit $1",
     "pre-commit": "echo \"pre-commit\" && exit 0",
     "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true\n"
   },
@@ -22,6 +22,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.1",

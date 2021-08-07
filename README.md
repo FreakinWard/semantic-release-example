@@ -6,6 +6,7 @@ Inspired by these articles
 - [Automate package releases with semantic-release and commitizen](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)
 - [How to control your deployments and versioning with semantic-release & friends](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)
 - [Making commits the right way with hooks](https://dev.to/thelogicwarlock/making-commits-the-right-way-with-hooks-31h9)
+- [How to lint git commit messages](https://remarkablemark.org/blog/2019/05/29/git-husky-commitlint/)
 
 # Getting Started
 This project demonstrates how to setup and configure semantic-release using [conventional commits](https://www.conventionalcommits.org/) and [commitizen](https://github.com/commitizen/cz-cli). 
