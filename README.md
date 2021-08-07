@@ -2,10 +2,12 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 ___
 # semantic-release-example
+Inspired by these articles
+- [Automate package releases with semantic-release and commitizen](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)
+- [How to control your deployments and versioning with semantic-release & friends](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)
+- [Making commits the right way with hooks](https://dev.to/thelogicwarlock/making-commits-the-right-way-with-hooks-31h9)
 
 # Getting Started
-With the help of [this article](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f)... and [this article](https://blog.logrocket.com/never-guess-about-project-history-again-31f65091f668/)...
-
 This project demonstrates how to setup and configure semantic-release using [conventional commits](https://www.conventionalcommits.org/) and [commitizen](https://github.com/commitizen/cz-cli). 
 
 Use `npm run cz` instead of `git commit` 
@@ -17,7 +19,7 @@ Summary of changes required for implementation in this project
 
 - run `npm i -g semantic-release-cli`
 - run `semantic-release-cli setup`
-
+things
 ## npm-release.yml
 This [github action](https://github.com/semantic-release/github/blob/4b902456b1c7958a59dca01bd3658dfde074f426/.github/workflows/release.yml) is  configured to run [manually](https://github.com/FreakinWard/semantic-release-example/blob/19f1bab239f3fc4d602f247747fe3ecc42dd9493/.github/workflows/npm-release.yml#L3) or with each [push](https://github.com/FreakinWard/semantic-release-example/blob/19f1bab239f3fc4d602f247747fe3ecc42dd9493/.github/workflows/npm-release.yml#L5) to `main`.
 
