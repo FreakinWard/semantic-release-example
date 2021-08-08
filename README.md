@@ -33,11 +33,12 @@ Install and setup semantic release
 
 > NOTE: `npm version` will create a version tag and commit the changes.
 
-```json5
-// create .releaserc in root directory - this overrides default tag deployment
-{
-   "branches": ["main"]
-}
+```javascript
+// create release.config.js in root directory 
+// this overrides default tag deployment
+module.exports = {
+   branches: ['main'],
+};
 ```
 
 [more details](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f#493d)
