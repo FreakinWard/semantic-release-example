@@ -48,20 +48,20 @@ module.exports = {
 
 Install husky, create prepare script which installs husky
 1. `npm i -D husky`
-1. `npm set-script prepare "husky install"`
+1. `npm pkg set scripts.prepare "husky install"`
 1. `npm run prepare`
 
 # Setup commitizen
 1. `npm i -D commitizen cz-conventional-changelog`
 1. `commitizen init cz-conventional-changelog`
-1. `npm set-script pre-commit "exec < /dev/tty && git cz --hook || true\n"`
+1. `npm pkg set scripts.pre-commit "exec < /dev/tty && git cz --hook || true\n"`
 1. `npx husky add .husky/pre-commit "npm run pre-commit" && git add .husky/pre-commit`
 
 [more details](https://schalkneethling.medium.com/automate-package-releases-with-semantic-release-and-commitizen-d7d4c337f04f#4f24)
 
 # Setup commitlint
 1. `npm i -D @commitlint/{cli,config-conventional}`
-1. `npm set-script commit-msg "npx --no-install commitlint --edit $1"`
+1. `npm pkg set scripts.commit-msg "npx --no-install commitlint --edit $1"`
 1. `npx husky add .husky/commit-msg "npm run commit-msg" && git add .husky/commit-msg`
 
 ```javascript
